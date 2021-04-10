@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/* GOOGLE LOGO : SECTION GOOGLE-LOGO*/
+
+section.google-logo {
+	margin-top: 20px;
+}
+
+input {
+	border: none;
+	font-size: 15px;
+	outline: none;
+	width: 84%;
+	height: 38px;
+}
+
+.input-field {
+	position: relative;
+	border-radius: 50px;
+	background: white;
+	border: 1px solid rgb(224, 219, 219);
+	width: 45%;
+	height: 40px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.input-btn {
+	border: none;
+	background: none;
+}
+
+.search {
+	padding-left: 10px;
+	position: absolute;
+	left: 8px;
+	top: 12px;
+}
+
+.microphone {
+	padding-right: 10px;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+/* LANGUAGES SECTION */
+
+a {
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+a:link {
+	color: #1a6df3;
+}
+
+a:visited {
+	color: #4285f4;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: green;
+}
+
+p {
+	display: inline;
+	font-size: 14px;
+}
+.language {
+	margin-top: 20px;
+}
+
+.languages,
+.headings {
+	margin-top: 0px;
+}
+
+.btn {
+	border: none;
+	background: none;
+	margin-top: 30px;
+	background-color: rgb(250, 250, 250);
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 2px;
+	outline-color: rgb(89, 89, 250);
+	margin-left: 20px;
+}
+
+.btn:hover {
+	border: 0.1px solid rgb(221, 219, 219);
+	border-radius: 2px;
+}
+
+/* HEADING SECTION */
+
+nav {
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 15px;
+	font-size: 14px;
+}
+
+.head {
+	padding-left: 10px;
+	color: black;
+}
+
+.head:link {
+	color: black;
+}
+
+.head:visited {
+	color: black;
+}
+
+.headbtn {
+	margin-left: 20px;
+	padding: 5px;
+	background-color: #3e64ff;
+	color: white;
+	font-size: 15px;
+	width: 8%;
+	height: 35px;
+	border-radius: 5px;
+	outline: none;
+	border: 0px solid #3e64ff;
+}
+
+.img {
+	display: inline;
+	margin-left: 20px;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 10px;
+	position: relative;
+	top: 5px;
+}
+
+.img:hover {
+	background: rgb(241, 241, 241);
+	border-radius: 70%;
+}
+
+/* FOOTER SECTION */
+
+footer {
+	background-color: #f2f2f2;
+	position: fixed;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+	margin-top: 240px;
+}
+
+.footer-p {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 50px;
+	color: #666666;
+	font-size: 15px;
+}
+
+.footer1 {
+	margin-left: 30px;
+}
+
+.footer2 {
+	border-top: 2px solid #e4e4e4;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 45px;
+	align-items: center;
+	font-size: 15px;
+}
+
+div.first a {
+	padding-left: 20px;
+	color: #666666;
+}
+
+div.second a {
+	padding-right: 20px;
+	color: #666666;
+}
